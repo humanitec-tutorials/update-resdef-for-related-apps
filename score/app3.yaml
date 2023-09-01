@@ -1,0 +1,16 @@
+---
+apiVersion: score.dev/v1b1
+
+metadata:
+  name: app3
+
+containers:
+  frontend:
+    image: ubuntu:latest
+    command: ["/bin/bash"]
+    args: ["-c", "while true; do printenv && sleep 100; done"]
+    variables:
+      POSTGRES: ${externals.postgres.host}
+resources:
+  "postgres":
+    type: postgres
