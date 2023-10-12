@@ -1,2 +1,4 @@
+# The Humanitec Organization ID. Must be all lowercase.
 org = ""
+# The Humanitec API Token.
 token = ""
