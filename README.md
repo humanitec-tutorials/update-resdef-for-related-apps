@@ -1,4 +1,3 @@
 # Update Resource Definitions for related Applications
 
-This repository contains reference material for Humanitec's tutorial on Resource Definitions for related Applications. You can find the full tutorial instructions here (link coming soon).
-
+This repository contains reference material for Humanitec's tutorial on [Updating Resource Definitions for related Applications](https://developer.humanitec.com/introduction/tutorials/update-resource-definitions-for-related-applications). Please find the full tutorial instructions in the linked documentation.
