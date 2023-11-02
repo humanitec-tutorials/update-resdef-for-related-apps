@@ -10,7 +10,7 @@ containers:
     command: ["/bin/bash"]
     args: ["-c", "while true; do printenv && sleep 100; done"]
     variables:
-      REDIS: ${externals.redis.host}
+      REDIS: ${resources.redis.host}
 resources:
-  "redis":
+  redis:
     type: redis

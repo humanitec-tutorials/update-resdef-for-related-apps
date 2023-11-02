@@ -10,10 +10,10 @@ containers:
     command: ["/bin/bash"]
     args: ["-c", "while true; do printenv && sleep 100; done"]
     variables:
-      REDIS: ${externals.redis.host}
-      S3: ${externals.s3.bucket}
+      REDIS: ${resources.redis.host}
+      S3: ${resources.s3.bucket}
 resources:
-  "redis":
+  redis:
     type: redis
-  "s3":
+  s3:
     type: s3
