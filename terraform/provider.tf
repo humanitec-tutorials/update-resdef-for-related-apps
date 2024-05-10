@@ -18,3 +18,6 @@ variable "org" {
 
 variable "token" {
 }
+
+variable "k8s_resDef" {
+}

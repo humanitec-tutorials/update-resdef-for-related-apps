@@ -5,7 +5,7 @@ variable "instance_type" {
 resource "humanitec_resource_definition" "redis" {
   name        = "redis"
   id          = "redis"
-  driver_type = "${var.org}/terraform"
+  driver_type = "humanitec/terraform"
   type        = "redis"
 
   driver_inputs = {
@@ -37,7 +37,7 @@ resource "humanitec_resource_definition" "redis" {
 resource "humanitec_resource_definition" "bucket" {
   name        = "bucket"
   id          = "bucket"
-  driver_type = "${var.org}/terraform"
+  driver_type = "humanitec/terraform"
   type        = "s3"
 
   driver_inputs = {
@@ -69,7 +69,7 @@ resource "humanitec_resource_definition" "bucket" {
 resource "humanitec_resource_definition" "postgres" {
   name        = "postgres"
   id          = "postgres"
-  driver_type = "${var.org}/terraform"
+  driver_type = "humanitec/terraform"
   type        = "postgres"
 
   driver_inputs = {
