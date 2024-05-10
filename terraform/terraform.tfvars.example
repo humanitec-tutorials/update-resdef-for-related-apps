@@ -2,3 +2,5 @@
 org = ""
 # The Humanitec API Token.
 token = ""
+# The id of the Resource Definition of the target Kubernetes Cluster
+k8s_resDef  = ""
